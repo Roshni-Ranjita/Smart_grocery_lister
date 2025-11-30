@@ -711,3 +711,4 @@ with tab4:
 # Footer
 st.markdown("---")
 st.markdown("*Grocery Optimizer v1.0 - Helping you shop smarter and healthier*")
+st.sidebar.write("Created by Roshni Bhowmik")
