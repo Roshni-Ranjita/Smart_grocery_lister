@@ -1,4 +1,4 @@
-🛒 Weekly Grocery Shopping Optimizer
+### 🛒 Weekly Grocery Shopping Optimizer
 Optimize your weekly grocery shopping based on nutrition, cost, and pantry stock.
 
 The Weekly Grocery Shopping Optimizer is an intelligent Streamlit-based application that uses linear programming (PuLP) to generate a cost-efficient and nutritionally balanced shopping list for your household. It accounts for:
