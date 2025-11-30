@@ -3,6 +3,24 @@ import pandas as pd
 from pulp import LpMinimize, LpProblem, LpVariable, lpSum, LpStatus
 import io
 
+st.markdown("""
+<style>
+/* Fix overlapping text in sidebar */
+.sidebar .sidebar-content, .css-1d391kg {
+    white-space: normal !important;
+    overflow-wrap: break-word !important;
+    word-wrap: break-word !important;
+    text-overflow: clip !important;
+}
+
+/* Fix headers wrapping inside narrow containers */
+h1, h2, h3, h4 {
+    white-space: normal !important;
+}
+</style>
+""", unsafe_allow_html=True)
+
+
 # Page configuration
 st.set_page_config(
     page_title="Weekly Grocery Optimizer",
